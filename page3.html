@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore top Jujutsu Kaisen characters like Toji Fushiguro, Sukuna, and Yuji Itadori with details, images, and videos.">
-    <title>Page 3</title>
+    <meta name="description" content="Explore top Jujutsu Kaisen characters like Toji, Sukuna, Yuji, and Gojo.">
+    <title>Top Jujutsu Kaisen Characters</title>
 
     <style>
         body {
             background-color: black;
             font-family: Arial, sans-serif;
             color: white;
+            margin: 0;
         }
 
         h1 {
+            text-align: center;
             color: chocolate;
         }
 
@@ -21,128 +23,110 @@
             color: aliceblue;
         }
 
-        .highlight {
-            color: rgb(167, 168, 172);
+        a {
+            color: cyan;
+            text-decoration: none;
+        }
+
+        /* GRID CONTAINER */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* CARD STYLE */
+        .card {
+            background-color: #111;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card img,
+        .card video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
         }
 
         .text {
             color: rgb(219, 215, 209);
         }
 
-       img, video {
-    max-width: 100%;
-    height: auto;
-}
-        a {
-            color: cyan;
-            text-decoration: none;
+        .highlight {
+            color: rgb(167, 168, 172);
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Top Jujutsu Kaisen Characters-Toji, Sukuna, Yuji,Gojo</h1>
+    <h1>Top Jujutsu Kaisen Characters</h1>
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="index.html">Go to Page 1</a><br><br>
+        <a href="page5.html">Go to Page 5</a>
+    </div>
+
     <hr>
 
-    <h2 class="highlight">Here you will see my Favorite Jujutsu Kaisen Characters</h2>
+    <div class="container">
 
-    <a href="page4.html">Go to Page 4</a>
+        <!-- Toji -->
+        <div class="card">
+            <h2>Toji Fushiguro</h2>
+            <img src="images/toji-fushiguro.jpg" alt="Toji Fushiguro">
+            <video src="video/toji-scene.mp4" controls muted></video>
 
-    <hr>
+            <p class="text">🗡️ The Sorcerer Killer</p>
 
-    <a href="index.html">
-        <h2>1. Toji Fushiguro  </h2>
-        <img src="images/Toji Fushiguro.jpg" alt="Toji Fushiguro image" title="Toji Fushiguro">
-    </a>
-     <video src="video/toji-scene.mp4" controls muted></video>
-    <p style="color:#aaa;">
-        When you click on the image, you will be redirected to the first page.
-    </p>
+            <p class="highlight">
+                No cursed energy, but insane strength and speed.
+            </p>
+        </div>
 
-    <h2>About Toji Fushiguro</h2>
+        <!-- Sukuna -->
+        <div class="card">
+            <h2>Ryomen Sukuna</h2>
+            <img src="images/ryomen-sukuna.jpg" alt="Sukuna">
+            <video src="video/sukuna-scene.mp4" controls muted></video>
 
-    <p class="text">🗡️ Toji Fushiguro — The Sorcerer Killer</p>
+            <p class="text">👑 King of Curses</p>
 
-    <p class="highlight">
-        🧍‍♂️ Basic Info<br>
-        Name: Toji Fushiguro<br>
-        Anime: Jujutsu Kaisen<br>
-        Nickname: Sorcerer Killer<br>
-        Son: Megumi Fushiguro
-    </p>
+            <p class="highlight">
+                Immense cursed energy and genius-level combat skills.
+            </p>
+        </div>
 
-    <p class="text">
-        ⚡ What Makes Toji Special?<br>
-        He has zero cursed energy, making him undetectable by sorcerers.
-    </p>
+        <!-- Yuji -->
+        <div class="card">
+            <h2>Yuji Itadori</h2>
+            <img src="images/yuji-itadori.jpg" alt="Yuji">
+            <video src="video/yuji-fight-scene.mp4" controls muted></video>
 
-    <p>
-        💪 Heavenly Restriction gives him:<br>
-        • Superhuman strength<br>
-        • Incredible speed<br>
-        • Enhanced senses
-    </p>
-<h2>2. Ryomen Sukuna </h2>
- <img src="images/Ryomen Sukuna.jpg" alt="Ryomen Sukuna image" title="Ryomen Sukuna">
- <video src="video/sukuna-scene.mp4" controls muted></video>   
-<h2>About Ryomen Sukuna</h2>
- <p class="text">  Ryomen Sukuna — The King of Curses</p>
-<p class="highlight"> 🧍‍♂️ Basic Info<br>
-Name: Ryomen Sukuna<br>
-Anime/Manga: Jujutsu Kaisen<br>
-Title: King of Curses 👑<br>
-Vessel: Yuji Itadori </p>
- <p class="text">
-⚡ What Makes Sukuna So Dangerous?<br>
-💀 Immense Cursed Energy<br>
-Sukuna has insane cursed energy reserves<br>
-His presence alone can terrify even top-tier sorcerers<br>
-🧠 Genius-Level Intelligence<br>
-Master strategist and combat genius<br>
-Understands techniques instantly 
+            <p class="text">💪 Strong Vessel</p>
 
-    </p>
-    <h2>3. Yuji Itadori </h2>
- <img src="images/yuji itadori.jpg" alt="Yuji Itadori image" title="Yuji Itadori"> 
-  <video src="video/yuji-fight-scene.mp4"  controls muted></video>  
-<h2>About Yuji Itadori</h2>
- <p class="text"> Yuji Itadori — The Vessel with a Human Heart</p>
-<p class="highlight">🧍‍♂️ Basic Info<br>
-Name: Yuji Itadori<br>
-Anime/Manga: Jujutsu Kaisen<br>
-Role: Jujutsu Sorcerer (Student)<br>
-Host of: Ryomen Sukuna</p>
- <p class="text">
-⚡ What Makes Yuji Special? <br>
-💪 Superhuman Body (Even Without Cursed Energy)<br>
-Naturally insane strength, speed, and stamina<br>
-Could compete with trained fighters before learning jujutsu<br>
-💀 Sukuna’s Vessel<br>
-Ate Sukuna’s finger 😬<br>
-Can control Sukuna (most of the time) — which is extremely rare <br>
+            <p class="highlight">
+                Superhuman body and host of Sukuna.
+            </p>
+        </div>
 
-    </p>
-     <h2>4. Satoru Gojo</h2>
- <img src="images/satoru-gojo.jpg" alt="Satoru Gojo image" title="Satoru Gojo"> 
-  <video src="video/gojo-satoru-scene.mp4"  controls muted></video>  
-<h2>About Satoru Gojo</h2>
- <p class="text"> Satoru Gojo — The Strongest Sorcerer</p>
-<p class="highlight">🧍‍♂️ Basic Info<br>
-Name: Satoru Gojo<br>
-Anime/Manga: Jujutsu Kaisen<br>
-Title: The Strongest 💀<br>
-Role: Jujutsu Sorcerer & Teacher<br>
-Students: Yuji Itadori, Megumi Fushiguro, Nobara Kugisaki</p>
- <p class="text">
-⚡ What Makes Gojo OP?<br>
-👁️ Six Eyes<br>
-Special eyes that let him see and control cursed energy perfectly<br>
-Almost zero energy wastage<br>
-♾️ Limitless Technique<br>
-Controls space itself 😳<br>
-Creates an “Infinity” barrier → nothing can touch him</p>
+        <!-- Gojo -->
+        <div class="card">
+            <h2>Satoru Gojo</h2>
+            <img src="images/satoru-gojo.jpg" alt="Gojo">
+            <video src="video/gojo-satoru-scene.mp4" controls muted></video>
 
+            <p class="text">🔥 The Strongest</p>
+
+            <p class="highlight">
+                Limitless technique and Six Eyes ability.
+            </p>
+        </div>
+
+    </div>
 
 </body>
 </html>
