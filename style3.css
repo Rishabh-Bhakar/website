@@ -1,0 +1,79 @@
+ body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+        }
+ main{
+    text-align: center;
+ }
+ p{
+    text-align: center;
+ }
+        h1 {
+            text-align: center;
+            color: rgb(59, 41, 103);
+        }
+
+        h2 {
+            color: aliceblue;
+            text-align: center;
+        }
+
+        a {
+            color: cyan;
+            text-decoration: none;
+        }
+
+        /* GRID CONTAINER */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* CARD STYLE */
+        .card {
+            background-color: #111;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card img,
+        .card video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .text {
+            color: rgb(219, 215, 209);
+        }
+
+        .highlight {
+            color: rgb(167, 168, 172);
+        }
+        .navbar ul {
+    list-style-type: none;
+    background-color: #1e293b;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
